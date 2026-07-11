@@ -1,0 +1,30 @@
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Configuración local de editores
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Variables, credenciales y certificados locales
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Registros y archivos temporales
+*.log
+tmp/
+temp/
+
+# Dependencias o salidas futuras
+node_modules/
+dist/
+build/
+coverage/
